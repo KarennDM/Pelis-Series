@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Happy+Monkey&display=swap');
+
+*{
+    font-family: 'Happy Monkey', system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 55px;
+    /* background: yellow; */
+    color: #fff;
+    text-shadow: 4px 4px 10px #ff008c;
+}
+
+body{
+    background: #161616;
+}
+
+.tl{
+    padding: 20px;
+    color: #fff;
+    text-shadow: 4px 4px 10px #ff008c;
+    font-size: 45px;
+    justify-content: space-between;
+    display: flex;
+}
+
+button a{
+    background: #ff008c;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 7px 10px 7px 10px;
+    border: 5px solid #777777;
+    border-radius: 5px;
+}
+
+#logo img{
+    margin: 0 auto;
+    background-position: left;
+    height: 20vh;
+    transition: .5s;
+}
+
+#logo img:hover{
+    transform: scale(1.1);
+}
+
+#peliculas{
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 4px 4px 10px #ff008c;
+}
+
+.rs{
+    font-size: 25px;
+}
+
+.sb{
+    font-size: 20px;
+}
+
+.fila{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pplus{
+    border: 10px solid #ff008c;
+    border-radius: 20px;
+    height: 35vh;
+}
+
+.peli{
+    justify-content: space-between;
+    text-align: center;
+    border: 6px solid #ff008c;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+#series{
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 4px 4px 10px #ff008c;
+}
+
+footer p{
+    background: #fff;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+    text-shadow: 2px 2px 10px #fa047f;
+}
